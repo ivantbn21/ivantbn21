@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegEx Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <!-- Box Input Pertama -->
+        <div class="relative w-full">
+            <label for="regexInputVan">Regex Satu: Min 10 karakter, tanpa adanya angka</label><br>
+            <input id="regexInputVan" type="text" placeholder="Masukkan input untuk regex satu"/>
+            <p><small><span id="validation-text-van">Validation message.</span></small></p>
+        </div>
+
+        <!-- Box Input Kedua -->
+        <div class="relative w-full">
+            <label for="regexInputVan2">Regex Dua: Min 8 karakter, harus ada satu huruf besar, satu huruf kecil, dan satu angka</label><br>
+            <input id="regexInputVan2" type="text" placeholder="Masukkan input untuk regex dua"/>
+            <p><small><span id="validation-text-van2">Validation message.</span></small></p>
+        </div>
+
+        <!-- Box Input Ketiga -->
+        <div class="relative w-full">
+            <label for="regexInputVan3">Regex Tiga: Min 6 karakter, max 12 karakter, hanya inputan huruf dan angka</label><br>
+            <input id="regexInputVan3" type="text" placeholder="Masukkan input untuk regex tiga"/>
+            <p><small><span id="validation-text-van3">Validation message.</span></small></p>
+        </div>
+
+        <!-- Box Input Keempat -->
+        <div class="relative w-full">
+            <label for="regexInputVan4">Regex Empat: Masukkan format email yang valid</label><br>
+            <input id="regexInputVan4" type="text" placeholder="Masukkan input untuk regex empat"/>
+            <p><small><span id="validation-text-van4">Validation message.</span></small></p>
+        </div>
+
+        <!-- Box Input Kelima -->
+        <div class="relative w-full">
+            <label for="regexInputVan5">Regex Lima: Inputan angka dengan 5 karakter</label><br>
+            <input id="regexInputVan5" type="text" placeholder="Masukkan input untuk regex lima"/>
+            <p><small><span id="validation-text-van5">Validation message.</span></small></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
